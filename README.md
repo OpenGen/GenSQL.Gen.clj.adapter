@@ -1,7 +1,7 @@
-# inferenceql.Gen.clj.adapter
+# GenSQL.Gen.clj.adapter
 
-A simple adapter to query any Gen.clj model from iql.query. It works by
-ensuring that gen model implements the gpm protocol functions that iql.query
+A simple adapter to query any Gen.clj model from GenSQL.query. It works by
+ensuring that gen model implements the gpm protocol functions that GenSQL.query
 is expecting (so in a sense, it's an adapter of Gen.clj to the GPM protocol).
 
 ## How can we ensure conditioning works as expected?
